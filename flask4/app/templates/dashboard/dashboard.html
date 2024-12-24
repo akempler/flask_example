@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %}Admin Dashboard{% endblock %}
+
+{% block content %}
+<h1>Admin Dashboard</h1>
+<div class="row mt-4">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Stats</h5>
+                <p class="card-text">View stats about the app.</p>
+                <a href="{{ url_for('dashboard.stats') }}" class="btn btn-primary">View Stats</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">logs</h5>
+                <p class="card-text">View logs about the app.</p>
+                <a href="{{ url_for('dashboard.logs') }}" class="btn btn-primary">View Logs</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %} 
