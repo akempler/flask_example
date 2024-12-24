@@ -26,4 +26,4 @@ Introduces a Blueprint to organize the app and the Application Factory to create
 
 ## Flask4
 
-Demonstrates the multiple Blueprints and routing files, as well as splitting the app into multiple packages.
+Demonstrates the use of multiple Blueprints and routing files, as well as splitting the app into multiple packages.
